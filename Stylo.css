@@ -1,28 +1,58 @@
-.prueba {
-	margin: auto;
-	margin-left: 20px;
-	width: 300px;
-	height: 400px;
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#titulo{
+	float: center;
+	height: 100px;
+	background-color: yellow;
+}
+#menu {
+	margin: 30px 20px 0px 5px;
+	width: 15%;
+	height: 300px;
 	background-color: red;
 }
-.relleno {
-	margin: auto;
-	margin-left: 20px;
-	margin-right:20px;
-	margin-top:20px;
-	margin-bottom: 20px;
-	width: 300px;
-	height: 100px;
-	background-color: blue;
-	}
-	.izquierda {
+#galery{
 	float: right;
-	margin: auto;
-	margin-left: 20px;
-	margin-right:20px;
-	margin-top:20px;
-	margin-bottom: 20px;
-	width: 300px;
-	height: 100px;
+	margin: 30px 20px 0px 20px;
+	width: 80%;
+	height: 4000px;
+	background-color: red;
+}
+.segmentos{
 	background-color: blue;
-	}
+	margin: 20px;
+	height: 32.5%;
+}
+.titulo-de-segmento{
+	background-color: yellow;
+	margin-bottom: 20px;
+	height: 10%;
+}
+.cuadricula-derecha{
+	float: right;
+	background-color: red;
+	height: 40%;
+	width: 31.5%;
+	margin: 10px 10px 10px 10px;
+}
+.cuadricula-medio{
+	float: right;
+	background-color: red;
+	height: 40%;
+	width: 31.5%;
+	margin: 10px 10px 10px 10px;
+}
+.fotos{
+	background-color: green;
+	margin: 9px;
+	height: 65%;
+	width: 95%; 
+}
+.descripciones{
+	background-color: green;
+	margin: 9px;
+	height: 30%;
+	width: 95%;
+}
