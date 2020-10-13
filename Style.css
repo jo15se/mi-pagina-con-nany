@@ -2,57 +2,72 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+
 #titulo{
 	float: center;
-	height: 100px;
-	background-color: yellow;
+	height: 160px;
+	width: 99%;
+	font-family: pristina;
+	font-size: 60px;
+	text-align: center;
 }
 #menu {
 	margin: 30px 20px 0px 5px;
 	width: 15%;
 	height: 300px;
-	background-color: red;
 }
 #galery{
 	float: right;
 	margin: 30px 20px 0px 20px;
 	width: 80%;
 	height: 4000px;
-	background-color: red;
 }
 .segmentos{
-	background-color: blue;
+	
 	margin: 20px;
 	height: 32.5%;
 }
 .titulo-de-segmento{
-	background-color: yellow;
 	margin-bottom: 20px;
 	height: 10%;
+	
 }
-.cuadricula-derecha{
-	float: right;
-	background-color: red;
-	height: 40%;
-	width: 31.5%;
-	margin: 10px 10px 10px 10px;
-}
-.cuadricula-medio{
-	float: right;
-	background-color: red;
+.cuadricula{
+	float: left;
 	height: 40%;
 	width: 31.5%;
 	margin: 10px 10px 10px 10px;
 }
 .fotos{
-	background-color: green;
 	margin: 9px;
-	height: 65%;
-	width: 95%; 
+	height: 60%;
+	width: 95%;
+	border-radius: 50px;
+	}
+.foto{
+	margin: 9px;
+	height: 90%;
+	width: 95%;
+	border-radius: 50px;
+	}
 }
 .descripciones{
-	background-color: green;
 	margin: 9px;
 	height: 30%;
 	width: 95%;
+}
+p {
+	font-size: 20px;
+	font-family: verdana;
+	text-align: justify;
+	border-radius: 6px;
+	border: solid;
+	border-width: 4px;
+	border-color: aqua;
+}
+h2 {
+	font-size: 80px;
+	text-align: center;
+	font-family: verdana;
 }
